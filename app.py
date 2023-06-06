@@ -41,9 +41,10 @@ server = app.server
 
 # Define the layout of the dashboard
 app.layout = html.Div(
+    style={'font-family': 'Open Sans'}, 
     children=[
     
-    html.H1('CO544-2023 Lab 3: Wine Quality Prediction'),
+    html.H1('CO544-2023 Lab 3: Wine Quality Prediction',style={'color': 'red'}),
     
     html.Div([
         html.H3('Exploratory Data Analysis'),
